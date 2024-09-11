@@ -9,9 +9,10 @@ jobs:
     steps:
       - run: echo "This too shall pass (always)"
       - run: echo "it is good"
+      - run: echo "it is good"
 
 workflows:
   version: 2
   default_workflow:
     jobs:
-      - pass
+      - pass 
